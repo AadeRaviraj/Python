@@ -6,7 +6,7 @@
 def SumDigit(No):
     Sum = 0 
     while(No != 0 ):        
-        Sum = Sum + No % 10 # get last digit
+        Sum = Sum + No % 10 # get last digit and add
         No = No // 10  # remove last digit
     return Sum
 
