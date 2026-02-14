@@ -1,7 +1,7 @@
 # 4. Write a program which accepts one number and prints cube of that number.
 
 
-def CubeResult(NO):
+def CubeResult(No):
     return No * No * No
 
 

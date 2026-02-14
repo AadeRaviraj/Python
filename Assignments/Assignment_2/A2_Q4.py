@@ -4,9 +4,7 @@
 
 
 def EvenNumber(No):
-    
-    result = []
-    
+    result = []    
     for i in range(1, No + 1):
         if(i % 2 == 0):
             result.append(i)
